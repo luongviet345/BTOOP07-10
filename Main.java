@@ -11,15 +11,14 @@ public class Main {
 
         System.out.println("Số hình đã tạo: " + Shape.getShapeCount());
 
-        System.out.println("\nDanh sách các hình:");
+        System.out.println("Danh sách các hình:");
         for (Shape s : shapes) {
-            System.out.println("- " + s.getInfo());
+            System.out.println(s.getInfo());
         }
 
-        // 3️⃣ Danh sách tâm điểm
-        System.out.println("\nDanh sách tâm điểm:");
+        System.out.println("Danh sách tâm điểm:");
         for (Shape s : shapes) {
-            System.out.println("- " + s.getCenterPoint());
+            System.out.println(s.getCenterPoint());
         }
     }
 }
